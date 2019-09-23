@@ -7,6 +7,15 @@ import sys
 ##OUTPUT is an optional path to the output file
 ##Output is a graph based on contents of input.
 
+##Eric
+#you will accept an input like "(0,1;2,5;6,9)"
+#then make output to be "/\/||"
+# a number or symbol like 0 or 1 or 2 or ; or , corresponds to a symbol. either /\ or _ or / or \ or |
+if(argv[1][1] == '0')
+    #print one of the symbols
+
+if(argv[1][2] == ';')
+    #print symbol
 
 def main(args):
     print("Hello world!")
@@ -18,7 +27,7 @@ if __name__ == "__main__":
 
 
 ##Reading from command-line arguments for input
-with open(args{1}, 'r') as input:
+with open(args[1], 'r') as input:
     for line in input:
         print(line)
 
@@ -29,5 +38,3 @@ with open(args{1}, 'r') as input:
 ##\ to indicate returning to idle
 with open(args{2}, 'w') as output:
     f.write("...")
-
-
